@@ -1,0 +1,139 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "rahasia",
+      "role": "admin"
+    },
+    {
+      "password": "user1",
+      "username": "user",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "username": "sofia",
+      "password": "123",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "username": "tes",
+      "password": "a123",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "username": "akusiapa",
+      "password": "aab",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "username": "siapa",
+      "password": "123",
+      "role": "user",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "name": "Amplifier Marshall Mini",
+      "image": "https://static.bhphoto.com/images/images2000x2000/1442424381_1182088.jpg",
+      "stok": 5,
+      "kategoriId": 2,
+      "harga": 1000000,
+      "deskripsi": "Battery Operated (Best with Polaroid 9V Batteries), 1 Watt, Volume & tone control, Headphone jack 0.34 lbs",
+      "id": 2,
+      "kat": "Sounds"
+    },
+    {
+      "name": "Bass Vender",
+      "image": "https://www.pmtonline.co.uk/media/catalog/product/cache/1/image/2400x/9df78eab33525d08d6e5fb8d27136e95/5/8/58826-176514-fender-player-series-jazz-bass-tidepool-mn-1.jpg",
+      "stok": 10,
+      "kategoriId": 3,
+      "harga": 4000000,
+      "deskripsi": "Solidbody bass. Made in USA Build Alder body, bolt-on maple neck with 20 narrow tall nickel frets on a rosewood fingerboard (maple an option). Fender Lightweight Vintage-Style tuners and 4-Saddle HiMass Vintage bridge, chrome hardware",
+      "id": 3,
+      "kat": "Instrument"
+    },
+    {
+      "name": "Bass Synthesizer",
+      "image": "https://i2.wp.com/www.streetwisesales.com/wp-content/uploads/2014/09/MicroBruteSE-Blue_Top.jpg?fit=1200%2C1200&ssl=1",
+      "stok": 1,
+      "kategoriId": 3,
+      "harga": 10000000,
+      "deskripsi": "The Novation Bass Station II 25-key monophonic analog synthesizer is a powerful reminder of Novation's legacy of synth prowess",
+      "id": 4,
+      "kat": "Instrument"
+    },
+    {
+      "name": "Ukulele Hawai",
+      "image": "https://www.basbleu.com/graphics/products/large/UM5182_B.jpg",
+      "stok": 100,
+      "kategoriId": 1,
+      "harga": 500000,
+      "deskripsi": "Ukulele with skin Hawai",
+      "id": 5,
+      "kat": "Classic"
+    },
+    {
+      "name": "Biola Electric",
+      "image": "https://ae01.alicdn.com/kf/HTB1z.wTSpXXXXbAXFXXq6xXFXXXz/Ammoon-VE-201-Penuh-Ukuran-4-4-Biola-Listrik-Diam-Kayu-Solid-Maple-Tubuh-dengan-Kasus.jpg",
+      "stok": 100,
+      "kategoriId": 3,
+      "harga": 5000000,
+      "deskripsi": "FULL SET: Hardcase, Bow, High Quality Rosin, Bridge, Biola, Kabel Jack 6.5 mm",
+      "id": 6,
+      "kat": "Instrument"
+    }
+  ],
+  "kategoris": [
+    {
+      "id2": 1,
+      "nama": "classic"
+    },
+    {
+      "id2": 2,
+      "nama": "Sounds"
+    },
+    {
+      "id2": 3,
+      "nama": "Instrument"
+    }
+  ],
+  "transactions": [
+    {
+      "status": "oncart",
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "transactiondetails": [
+    {
+      "transactionId": 1,
+      "productId": 4,
+      "qty": 1,
+      "id": 3
+    },
+    {
+      "transactionId": 1,
+      "productId": 3,
+      "qty": 1,
+      "id": 4
+    },
+    {
+      "transactionId": 1,
+      "productId": 3,
+      "qty": 1,
+      "id": 5
+    },
+    {
+      "transactionId": 1,
+      "productId": 6,
+      "qty": 1,
+      "id": 6
+    }
+  ]
+}
